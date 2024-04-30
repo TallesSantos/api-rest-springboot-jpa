@@ -1,5 +1,4 @@
 package com.educandoweb.course.resources;
-
 import java.net.URI;
 import java.util.List;
 
@@ -21,17 +20,14 @@ import com.educandoweb.course.services.UserService;
 import com.educandoweb.course.services.exceptions.ResourceNotFoundException;
 
 @RestController
-@RequestMapping(value = "/users/")
+@RequestMapping(value = "/users")
 public class UserResource {
-
 	@Autowired
 	private UserService service;
 
 	@GetMapping
 	public ResponseEntity<List<User>> findAll() {
-
 		List<User> list = service.findAll();
-
 		return ResponseEntity.ok().body(list);
 	}
 
@@ -50,10 +46,8 @@ public class UserResource {
 
 	@DeleteMapping(value = "/{id}")
 	public ResponseEntity<Void> delete(@PathVariable Long id) {
-
 		service.delete(id);
 		return ResponseEntity.noContent().build();
-
 	}
 
 	@PutMapping(value = "/{id}")
@@ -61,5 +55,4 @@ public class UserResource {
 		obj = service.update(id, obj);
 		return ResponseEntity.ok().body(obj);
 	}
-
 }
