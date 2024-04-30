@@ -16,16 +16,13 @@
 
 <p>Abra-o de preferência com a IDE inteliJ e atualize as dependências do projeto (caso elas n atualizem automaticamente).</p>
 
-<p> Banco de dados postgres instalado. </p>
+<p>Banco de dados postgres instalado. <em> Observação: O Hibernate criara o database e as tabelas automaticamenteem </p>
 
-<!-- Observação: Não é preciso te o banco de dados criado. A dependencia JPA do Spring criara o database e as tabelas automaticamente -->
-
-<p> Confira se o postgres esta rodando na porta 5432 </p>
+<p>Confira se o postgres esta rodando na porta 5432 </p>
 
 <p>Modifique as variavies "spring.datasource.url", "spring.datasource.username", "spring.datasource.password" do arquivo application-dev.properties localizado na pasta src/main/resources do projeto.</p>
 
-<!-- <p>De um start na aplicação. Para conferir se o projeto está funcionando. Usando Postman ou qualquer outro software da sua escolha, faça uma requisição get ao endereço: http://localhost:8080/food na qual devera retornar dois objetos</p> -->
-
+ <p>De um start na aplicação. Para conferir se o projeto está funcionando. Usando Postman ou qualquer outro software da sua escolha, faça uma requisição get ao endereço: <Strong> http://localhost:8080/users <strong> na qual devera retornar dois objetos UserDTO ("Maria Brown" e "Alex Green")  </p>
 
 <h2>API Endpoints</h2>
 
