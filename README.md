@@ -1,4 +1,10 @@
-<h1>Projeto Spring boot com postgres</h1>
+
+<h1 align="center">Projeto Spring boot com postgres</h1>
+<p align="center" >
+        <a href="https://skillicons.dev">
+          <img src="https://skillicons.dev/icons?i=git,spring,hibernate,postgres" />
+        </a>
+</p>
 <h2>Sobre o projeto</h2>
 <p>Projeto construído no curso "Java COMPLETO Programação Orientada a Objetos + Projeto ~Nélio alves".
 <p> <a href="https://www.udemy.com/course/java-curso-completo"/> << Link do curso >> </a> </p>
